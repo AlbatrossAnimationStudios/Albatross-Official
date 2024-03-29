@@ -1,0 +1,128 @@
+		body {
+			font-family: 'Neuropol X', sans-serif;
+			color: #fff;
+			text-align: center;
+			background-color: #333;
+        	background-size: cover;
+			margin: 0;
+			padding: 0;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+			}
+		header {
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
+
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+
+		.video {
+			margin: 20px;
+			width: calc(50% - 40px); /* make each video take up half of the available space */
+		}
+
+		video {
+			width: 100%;
+			height: auto;
+		}
+		.img {
+			margin: 20px;
+			width: calc(50% - 40px); /* make each video take up half of the available space */
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		h2, p {
+			margin: 10px 0;
+		}
+
+		footer {
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+	  .text {
+		color: #fff;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	  }
+	  .fontsize {
+            font-size: 12px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 16px;
+			overflow: hidden;
+			text-align: center;
+			display: flex;
+			justify-content: center; /* Center items horizontally */
+			align-items: center; /* Center items vertically */
+			flex-wrap: wrap;
+		  }
+		  
+		  nav li {
+			display: inline-block;
+			margin-right: 10px;
+		  }
+		  
+		  nav li a {
+			display: block;
+			color: #fff;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 16px;
+			transition: transform 0.3s, font-size 0.3s;
+		  }
+		  
+		  nav li a:hover {
+			transform: scale(1.1);
+			font-size: 16px;
+			background-color: transparent;
+		  }
+		  
+		  /* Media query for screens with a maximum width of 600px */
+		  @media only screen and (max-width: 600px) {
+			nav li {
+			  display: inline-block;
+			  margin-bottom: 10px;
+			}
+		  }  
+.background {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+}
+      .content {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        text-align: center;
+      }
+	  .mathiasicon {
+		height: 100px;
+		width: auto;
+		transition: transform 0.3s ease;
+	}
+	
+	.mathiasicon:hover {
+		transform: scale(1.05);
+	}
+	
