@@ -1,1 +1,0 @@
-const currentYear=(new Date).getFullYear(),copyrightElement=document.getElementById("copyrightyear");copyrightElement.textContent=`${currentYear} `;
